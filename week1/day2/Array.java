@@ -13,7 +13,7 @@ public class Array {
 		{
 			for (int j = i+1 ; j < len; j++) {
 				
-				if (nums[i]==nums[j]) {
+if (nums[i]==nums[j]) {
 					
 					System.out.println(nums[i]);
 				}

@@ -3,7 +3,10 @@ package week1.day1;
 public class SwitchCondition {
 	
 	public static void main(String[] args) {
+		
 		char browser = 'c';
+		
+		//String browser = "Chrome";
 		
 		switch (browser) {
 		
