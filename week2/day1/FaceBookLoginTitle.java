@@ -18,6 +18,7 @@ public class FaceBookLoginTitle {
 		driver.findElement (By.linkText("Find your account and log in.")).click();
 		driver.findElement (By.id ("identify_email")).sendKeys("testleaf.2023@gmail.com");
 		driver.findElement (By.name("did_submit")).click();
+		driver.close();
 		
 		
 	}
